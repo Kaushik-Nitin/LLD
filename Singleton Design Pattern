@@ -1,1 +1,18 @@
+Constructor should be private
+Object should be created with the help of method.
+create field to store object is private.
+Two types of initialisation of objects :- Lazy way(create object when needed) and Eager way(Create object very early).
+Threads are executed concurrently.
+
+
+How to avoid Thread safety failure in case of lazy way of initialisation :-
+
+if(samoosa==NULL){
+    synchronized (Samosa.class) {
+        if(samosa==NULL){
+            samosa= new Samosa();
+        }
+    }
+}
+
 
