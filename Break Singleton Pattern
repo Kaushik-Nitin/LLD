@@ -1,0 +1,9 @@
+1) Reflection API to break Singleton pattern.
+Solution: 1-> if object is there ==> throw exception from inside constructor
+          2-> use enum
+
+2) Deserialization
+Solution: Implementing readResolve method
+
+3) cloning
+Solution: override clone fxn and modify the function.
