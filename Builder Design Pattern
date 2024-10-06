@@ -4,3 +4,4 @@ While Creating Object when object contain many attributes there are many problem
 3) Factory class that takes all responsibility for creating object, if the object is heavy then all the complexity is the part of factory class.
 
 So in builder pattern be create object step by step and finally return final object with desired values of attributes.
+Builder pattern is used to create immutable objects.
